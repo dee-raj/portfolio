@@ -1,0 +1,45 @@
+@media (max-width:991px) {
+   #contact-me .contact-me {
+      padding: 6rem 0 0 0;
+   }
+}
+
+@media (max-width:576px) {
+   hr {
+      font-size: 2rem !important;
+      line-height: 3rem;
+   }
+
+   .hero-small button {
+      width: 50%;
+   }
+
+   .hero-small p {
+      font-size: .9rem;
+   }
+
+   .aboutImg {
+      height: 400px;
+   }
+
+   .scroll-to-top {
+      padding: .7rem 1.1rem 2.1rem .62rem;
+   }
+}
+
+@media (max-width:360px) {
+
+   h1,
+   h2 {
+      font-size: .8rem !important;
+      line-height: 2.5rem;
+   }
+
+   .hero-small button {
+      width: 100%;
+   }
+
+   .scroll-to-top::before {
+      font-size: 16px;
+   }
+}
