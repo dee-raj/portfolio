@@ -472,6 +472,7 @@ footer a:hover {
 
 .lead {
    padding: 0 20px;
+   font-size: 1.1rem;
    text-align: justify;
 }
 
@@ -484,14 +485,13 @@ footer a:hover {
    background-color: var(--sub-main);
    color: var(--white);
    border: none;
-   border-radius: 50%;
+   border-radius: 5%;
    padding: 0 .4rem;
    cursor: pointer;
    transition: background-color 0.3s;
-   height: 7%;
-   width: 3%;
-   z-index: 100;
-   font-size: 26px;
+   z-index: 10;
+   font-size: .8rem;
+   opacity: .7;
 }
 
 .show-scroll {
@@ -503,11 +503,7 @@ footer a:hover {
    background-color: var(--yellow) !important;
    transition: ease-in-out .5s;
    color: var(--main);
-   height: 8%;
-   width: 4%;
+   opacity: .9;
+   z-index: 100;
    transition: background-color 0.3s, height 0.7s, width 0.9s;
-}
-
-.scroll-to-top:hover::before {
-   font-size: 20px;
 }

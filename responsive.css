@@ -23,7 +23,12 @@
    }
 
    .scroll-to-top {
-      padding: .7rem 1.1rem 2.1rem .62rem;
+      /* padding: .7rem 1.1rem 2.1rem .62rem; */
+      height: fit-content;
+      width: fit-content;
+      padding: 0 .4rem;
+      border-radius: 10px;
+      font-size: small;
    }
 }
 
