@@ -156,7 +156,7 @@
             </tr>
             <tr>
               <th>Email:</th>
-              <td><a href="mailto:dhurbaraj343sky@gmail.com">MAIL HERE</a></td>
+              <td><a href="mailto:www.moon.knight73@gmail.com">MAIL HERE</a></td>
             </tr>
             <tr>
               <th>Phone:</th>
@@ -207,15 +207,15 @@
         <div class="col-12 col-sm-6 col-lg-3 mt-lg-0 mt-3">
           <div class="whatido-box rounded">
             <i class="fa-regular fa-lightbulb"></i>
-            <h3>Machine learning</h3>
-            <p>with over 3+ year of working experience, I studied Computer Science at Vartak</p>
+            <h3>Working NoSQL Technologies</h3>
+            <p>learning not-noly SQL Technologies in my msc.</p>
           </div>
         </div>
 
         <div class="col-12 col-sm-6 col-lg-3 mt-lg-0 mt-3">
           <div class="whatido-box rounded">
             <i class="fa-solid fa-chart-column"></i>
-            <h3>Data Science</h3>
+            <h3>React Native</h3>
             <p>with over 3+ year of working experience, I studied Computer Science at Vartak</p>
           </div>
         </div>
@@ -387,7 +387,7 @@
   </section>
   <!-- call to action end -->
 
-  <!-- Contact us  -->
+  <!-- Contact us -->
   <section class="fdb-block pt-0 container" style="background-image: url(./images/back-ground/bg.png)">
     <div id="contact-me" class="container bg-r">
       <h1>Contact Me</h1>
@@ -397,7 +397,7 @@
           <div class="col-12 col-md-6 col-lg-5">
             <h2>Call or email</h2>
             <p class="text-large">
-              Support and deplopment services are currently available in Hindi
+              Support and development services are currently available in Hindi
             </p>
 
             <p class="h3 mt-4 mt-lg-5">
@@ -417,72 +417,19 @@
               <strong>General inquiries</strong>
             </p>
             <p>
-              <a href="mailto:dhurbaraj343sky@gmail.com">dhurbaraj343sky@gmail.com</a>
+              <a href="mailto:www.moon.knight73@gmail.com">www.moon.knight73@gmail.com</a>
             </p>
           </div>
 
           <div class="col-12 col-md-6 ml-auto">
             <h2>Drop us a line</h2>
-            <form>
-              <div class="row">
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="First name">
-                </div>
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="Last name">
-                </div>
-              </div>
-
-              <div class="row mt-4">
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="Company Name">
-                </div>
-              </div>
-
-              <div class="row mt-4">
-                <div class="col">
-                  <input type="email" class="form-control" placeholder="Email">
-                </div>
-              </div>
-
-              <div class="row mt-4">
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="Phone">
-                </div>
-                <div class="col">
-                  <select class="form-control" required="">
-                    <option value="">Country</option>
-                    <option value="1">India</option>
-                    <option value="2">Nepal</option>
-                    <option value="3">USA</option>
-                    <option value="4">UK</option>
-                    <option value="4">other</option>
-                  </select>
-                </div>
-              </div>
-
-              <div class="row mt-4">
-                <div class="col">
-                  <select class="form-control" required="">
-                    <option value="">Select Category</option>
-                    <option value="1">Games</option>
-                    <option value="2">Projects</option>
-                    <option value="3">Website</option>
-                    <option value="4">Apps</option>
-                  </select>
-                </div>
-              </div>
-              <div class="row mt-4">
-                <div class="col">
-                  <textarea class="form-control" name="message" rows="5" placeholder="How can we help?"></textarea>
-                </div>
-              </div>
-              <div class="row my-2">
-                <div class="col">
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-              </div>
+            <form id="contact-form">
+              <input type="text" name="from_name" class="form-control" placeholder="Your Name" required>
+              <input type="email" name="from_email" class="form-control" placeholder="Your Email" required>
+              <textarea name="message" class="form-control" rows="5" placeholder="How can we help?" required></textarea>
+              <button type="submit" id="submit-button" class="btn btn-primary">Submit</button>
             </form>
+            <div id="formStatus"></div>
           </div>
         </div>
       </div>
@@ -505,7 +452,9 @@
         <div class="col-12 col-md-5 text-center text-md-center">
           <a target="_blank" href="" class="mx-3"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
           <a target="_blank" href="" class="mx-3"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-          <a target="_blank" href="https://github.com/dee-raj/" class="mx-3"><i class="fab fa-github" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://github.com/dee-raj/" class="mx-3">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
           <a target="_blank" href="" class="mx-3"><i class="fab fa-youtube" aria-hidden="true"></i></a>
           <a target="_blank" href="" class="mx-3"><i class="fab fa-instagram" aria-hidden="true"></i></a>
         </div>
@@ -517,6 +466,7 @@
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script src="index.js"></script>
 </body>
 
